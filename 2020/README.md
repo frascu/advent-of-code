@@ -1,7 +1,7 @@
 # Advent of Code 2020
-[Advend of Code](https://adventofcode.com/2020) is a programming event in which every day from 1st to 25th December a problem is published in order to be solved.</br>
-I partecipated and I solved 8. Unfortunately, the other days I had no opportunity to spend time for this competition.</br>
-In the following table you can find the problems and my solutions.
+[Advend of Code 2020](https://adventofcode.com/2020)
+
+In the following table you can find my submissions.
 | Day | Problem  |  Part One |  Part Two |  Solution  |
 |--: |:-:|:-:|:-:|:-:|
 |  1  | [Report Repair](https://adventofcode.com/2020/day/1)        | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day01.java](src/it/frascu/adaventcode/Day01.java)  |
