@@ -1,15 +1,8 @@
-# advent-of-code-2022
+# Advent of Code 2022
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [frascu][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+Welcome to the Advent of Code[^aoc] Kotlin project created by me using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
-In this repository, frascu is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
-
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
-
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
-
+In this repository, I am about to provide solutions for the puzzles using [Kotlin][kotlin] language.
 
 [^aoc]:
     [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
@@ -23,3 +16,10 @@ If you're stuck with Kotlin-specific questions or anything related to this templ
 [kotlin]: https://kotlinlang.org
 [slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
 [template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+
+
+In the following table you can find my submissions.
+
+| Day | Problem  |  Part One |  Part Two |  Solution  |
+| --: |   :--    |    :-:    |    :-:    |    :-:     |
+|  1  | [Calorie Counting](https://adventofcode.com/2022/day/1)              | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day01.kt](src/main/kotlin/Day01.kt)  |
