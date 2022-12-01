@@ -5,6 +5,6 @@ People use them as a speed contest, interview prep, company training, university
 
 | Year |   Event    |  Programming Language  |Solution  | 
 | :--  |   :-:      |    :-:                 |    :-:    |
-|  2021  | [Advent of Code 2022](https://adventofcode.com/2022) |  Kotlin | [➡️](2022)  | 
+|  2022  | [Advent of Code 2022](https://adventofcode.com/2022) |  Kotlin | [➡️](2022)  | 
 |  2021  | [Advent of Code 2021](https://adventofcode.com/2021) |  Java   | [➡️](2021)  | 
 |  2020  | [Advent of Code 2020](https://adventofcode.com/2020) |  Java   | [➡️](2020)  | 
