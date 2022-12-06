@@ -27,3 +27,4 @@ In the following table you can find my submissions.
 |  3  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3)   | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day03.kt](src/main/kotlin/Day03.kt)  |
 |  4  | [Camp Cleanup](https://adventofcode.com/2022/day/4)              | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day04.kt](src/main/kotlin/Day04.kt)  |
 |  5  | [Supply Stacks](https://adventofcode.com/2022/day/5)             | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day05.kt](src/main/kotlin/Day05.kt)  |
+|  6  | [Tuning Trouble](https://adventofcode.com/2022/day/6)            | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day06.kt](src/main/kotlin/Day06.kt)  |
