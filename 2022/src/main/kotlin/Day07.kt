@@ -6,22 +6,24 @@ fun main() {
         input.subList(indexStart + 1, input.size)
             .takeWhile { line -> line[0] != '$' }
             .map { file ->
-                val (weight, fileName) = file.split(" ")
-                Node(fileName, if ("dir" == weight) 0 else weight.toInt(), parent, listOf())
+                val (firstArg, fileName) = file.split(" ")
+                Node(fileName, if ("dir" == firstArg) 0 else firstArg.toInt(), parent, listOf())
             }
 
     fun getTree(input: List<String>): Node {
-        val root = Node("/", 0, null, mutableListOf())
+        val root = Node("/", 0, null, listOf())
         var parent = root
         input.withIndex()
             .filter { it.value[0] == '$' }
-            .forEach {
-                val command = it.value.split(" ")
+            .forEach {(index, command) ->
                 when {
-                    command[1] == "cd" && command[2] == ".." -> parent = parent.parent!!
-                    command[1] == "cd" && command[2] != "/" -> parent =
-                        parent.children.first { d -> d.name == command[2] }
-                    command[1] == "ls" -> parent.children = getFiles(input, it.index, parent)
+                    command.startsWith("$ ls") -> parent.children = getFiles(input, index, parent)
+                    command == "$ cd .." -> parent = parent.parent!!
+                    command == "$ cd /" -> parent = root
+                    else -> {
+                        val arg = command.takeLastWhile { it != ' ' }
+                        parent = parent.children.first { it.name == arg }
+                    }
                 }
             }
         return root
@@ -43,12 +45,12 @@ fun main() {
         return weights
     }
 
-    fun part1(input: List<String>) = calculateWeights(getTree(input)).filter { w -> w < 100000 }.sum()
+    fun part1(input: List<String>) = calculateWeights(getTree(input)).filter { it < 100000 }.sum()
 
     fun part2(input: List<String>): Int {
         val weights = calculateWeights(getTree(input)).sorted()
         val neededFreeSpace = 30000000 - (70000000 - weights[weights.size - 1])
-        return calculateWeights(getTree(input)).sorted().first { w -> w >= neededFreeSpace }
+        return calculateWeights(getTree(input)).sorted().first { it >= neededFreeSpace }
     }
 
     val testInput = readInput("Day07_test")
