@@ -22,9 +22,10 @@ In the following table you can find my submissions.
 
 | Day | Problem  |  Part One |  Part Two |  Solution  |
 | --: |   :--    |    :-:    |    :-:    |    :-:     |
-|  1  | [Calorie Counting](https://adventofcode.com/2022/day/1)          | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day01.kt](src/main/kotlin/Day01.kt)  |
-|  2  | [Rock Paper Scissors](https://adventofcode.com/2022/day/2)       | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day02.kt](src/main/kotlin/Day02.kt)  |
-|  3  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3)   | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day03.kt](src/main/kotlin/Day03.kt)  |
-|  4  | [Camp Cleanup](https://adventofcode.com/2022/day/4)              | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day04.kt](src/main/kotlin/Day04.kt)  |
-|  5  | [Supply Stacks](https://adventofcode.com/2022/day/5)             | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day05.kt](src/main/kotlin/Day05.kt)  |
-|  6  | [Tuning Trouble](https://adventofcode.com/2022/day/6)            | :heavy_check_mark: Solved | :heavy_check_mark: Solved  |  [Day06.kt](src/main/kotlin/Day06.kt)  |
+|  1  | [Calorie Counting](https://adventofcode.com/2022/day/1)        | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day01.kt](src/main/kotlin/Day01.kt)  |
+|  2  | [Rock Paper Scissors](https://adventofcode.com/2022/day/2)     | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day02.kt](src/main/kotlin/Day02.kt)  |
+|  3  | [Rucksack Reorganization](https://adventofcode.com/2022/day/3) | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day03.kt](src/main/kotlin/Day03.kt)  |
+|  4  | [Camp Cleanup](https://adventofcode.com/2022/day/4)            | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day04.kt](src/main/kotlin/Day04.kt)  |
+|  5  | [Supply Stacks](https://adventofcode.com/2022/day/5)           | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day05.kt](src/main/kotlin/Day05.kt)  |
+|  6  | [Tuning Trouble](https://adventofcode.com/2022/day/6)          | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day06.kt](src/main/kotlin/Day06.kt)  |
+|  7  | [No Space Left On Device](https://adventofcode.com/2022/day/7) | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day07.kt](src/main/kotlin/Day07.kt)  |
