@@ -29,3 +29,4 @@ In the following table you can find my submissions.
 |  5  | [Supply Stacks](https://adventofcode.com/2022/day/5)           | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day05.kt](src/main/kotlin/Day05.kt)  |
 |  6  | [Tuning Trouble](https://adventofcode.com/2022/day/6)          | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day06.kt](src/main/kotlin/Day06.kt)  |
 |  7  | [No Space Left On Device](https://adventofcode.com/2022/day/7) | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day07.kt](src/main/kotlin/Day07.kt)  |
+|  8  | [Treetop Tree House](https://adventofcode.com/2022/day/8)      | :heavy_check_mark: Solved | :heavy_check_mark: Solved | [Day08.kt](src/main/kotlin/Day08.kt)  |
